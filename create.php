@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
     $category = $_POST['category'];
     $price = $_POST['price'];
-    $quantity = $_POST['quantity'];//555555555555
+    $quantity = $_POST['quantity'];//5555555555
     $image = $_POST['image'];
 
     if ($name && $price && $quantity) {
